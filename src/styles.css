@@ -1,0 +1,25 @@
+.flex {
+	display: flex;
+}
+
+/* SHOWCASE */
+.mobiles {
+	width: auto;
+	height: 50%;
+}
+
+/* NEWSLETTER */
+
+/* BOXES */
+.card > img {
+	height: 100px;
+}
+
+/* FOOTER  */
+/* #amazon-footer {
+	background-color: rgb(42, 140, 165);
+} */
+
+/* .footer-links > a {
+	border-color: red;
+} */

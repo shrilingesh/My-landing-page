@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Responsive Website demo</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar bg-transparent text-light p-4">
+			<div class="container">
+				<a href="#" class="nav-brand">
+					<i class="bi bi-amazon h1"></i>
+				</a>
+
+				<div>
+					<button class="btn btn-warning mx-3">
+						sign in
+						<i class="bi bi-arrow-right"></i>
+					</button>
+					<button
+						type="button"
+						class="navbar-toggler"
+						data-bs-toggle="collapse"
+						data-bs-target="#navMenu"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<!-- navMenu -->
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Mobiles</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Tablets</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">laptops</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- showcase -->
+		<section class="bg-dark text-light p-5 text-center text-sm-start">
+			<div class="container">
+				<div
+					class="d-sm-flex justify-content-between align-items-center"
+				>
+					<div>
+						<h1>Mobiles</h1>
+						<p class="small">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Inventore delectus architecto autem voluptas.
+							Amet eaque aliquid quasi consequatur inventore omnis
+							id aliquam enim error voluptates.
+						</p>
+					</div>
+
+					<div>
+						<img
+							src="./images/undraw_smartphone_9zbj.svg"
+							alt=""
+							class="img-fluid w-50 mx-2"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- newsletter -->
+		<section class="bg-primary text-dark p-5 text-center">
+			<div class="container">
+				<div class="d-lg-flex">
+					<h3>
+						This may become your
+						<span class="text-warning">LUCKY Destination</span>
+					</h3>
+					<div class="mx-lg-5">
+						<div class="input-group mb-3">
+							<input
+								type="email"
+								class="form-control"
+								placeholder="Enter email with trust :)"
+								aria-label="Enter email with trust :)"
+								aria-describedby="submit-email"
+							/>
+							<button
+								class="btn btn-dark"
+								type="button"
+								id="submit-email"
+							>
+								Trusted
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- boxes  -->
+		<section class="bg-light text-primary p-5">
+			<div class="container">
+				<div class="row">
+					<!-- CARD 1 -->
+					<div class="col-lg-3 m-3">
+						<div class="card h-100">
+							<img
+								src="./images/products/realme phone.jpg"
+								alt=""
+								class="img-fluid w-50 d-block mx-auto mt-2"
+							/>
+							<div
+								class="card-body text-center d-flex flex-column"
+							>
+								<div class="card-title fw-bold">
+									Realme Note 10 pro
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Assumenda modi harum ipsa
+									consectetur animi voluptate eligendi
+									expedita aut provident libero, officia illum
+									eos iusto laudantium.
+								</div>
+								<a
+									href="#"
+									class="btn btn-dark w-50 mx-auto mt-auto"
+								>
+									read more
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- CARD 2 -->
+					<div class="col-lg-3 m-3">
+						<div class="card h-100">
+							<img
+								src="./images/products/apple phone.jpg"
+								alt=""
+								class="img-fluid w-50 d-block mx-auto mt-2"
+							/>
+							<div
+								class="card-body text-center d-flex flex-column"
+							>
+								<div class="card-title fw-bold">
+									Apple 17 pro
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Assumenda modi harum ipsa
+									consectetur animi voluptate eligendi
+									expedita aut provident libero, officia illum
+									eos iusto laudantium.
+								</div>
+								<a
+									href="#"
+									class="btn btn-dark w-50 mx-auto mt-auto"
+								>
+									read more
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- CARD 3 -->
+					<div class="col-lg-3 m-3">
+						<div class="card h-100">
+							<img
+								src="./images/products/vivo phone.jpg"
+								alt=""
+								class="img-fluid w-50 d-block mx-auto mt-2"
+							/>
+							<div
+								class="card-body text-center d-flex flex-column"
+							>
+								<div class="card-title fw-bold">
+									Vivo V3-Max
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Assumenda modi harum ipsa
+									consectetur animi voluptate eligendi
+									expedita aut provident libero, officia illum
+									eos iusto laudantium.
+								</div>
+								<a
+									href="#"
+									class="btn btn-dark w-50 mx-auto mt-auto"
+								>
+									read more
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- special offers -->
+		<section class="bg-dark text-primary p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md">
+						<div style="max-width: 400px; max-height: 450px">
+							<img
+								src="./images/undraw_mobile-testing_sm2l.svg"
+								alt=""
+								class="img-fluid"
+							/>
+						</div>
+					</div>
+					<div class="col-md p-5 text-center">
+						<div>
+							<h3 class="text-warning">
+								Grab the latest Realme 17 at 71% Off
+							</h3>
+							<p class="lead">
+								Lorem ipsum dolor sit, amet consectetur
+								adipisicing elit. Voluptatem non dolore autem?
+								Perspiciatis amet possimus temporibus non,
+								veniam provident, dignissimos beatae, tempora
+								quam quisquam labore dicta? Nihil qui sunt
+								molestias.
+							</p>
+							<a href="#" class="btn btn-light">
+								<i class="bi bi-chevron-right"></i>
+								read more
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ -->
+		<section class="bg-secondary text-dark p-5">
+			<div class="container">
+				<h1 class="text-light">FAQ :)</h1>
+
+				<div class="accordion accordion-flush" id="FAQ">
+					<!-- FAQ 1	 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseOne"
+								aria-expanded="false"
+								aria-controls="flush-collapseOne"
+							>
+								What is the warranty period provided by the
+								platform?
+							</button>
+						</h2>
+						<div
+							id="flush-collapseOne"
+							class="accordion-collapse collapse"
+							data-bs-parent="#FAQ"
+						>
+							<div class="accordion-body">
+								Lorem, ipsum dolor sit amet consectetur
+								adipisicing elit. Nemo nihil ea beatae, sit, qui
+								<code>fugit quibusdam</code>
+								architecto ipsum quos eveniet provident aliquam
+								eius ipsa ut saepe. Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Molestias est ea
+								consequuntur necessitatibus doloribus.
+							</div>
+						</div>
+					</div>
+					<!-- FAQ 2 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseTwo"
+								aria-expanded="false"
+								aria-controls="flush-collapseTwo"
+							>
+								Within how many days i could get the product
+								delivered?
+							</button>
+						</h2>
+						<div
+							id="flush-collapseTwo"
+							class="accordion-collapse collapse"
+							data-bs-parent="#FAQ"
+						>
+							<div class="accordion-body">
+								Lorem, ipsum dolor sit amet consectetur
+								adipisicing elit. Nemo nihil ea beatae, sit, qui
+								<code>fugit quibusdam</code>
+								architecto ipsum quos eveniet provident aliquam
+								eius ipsa ut saepe. Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Expedita amet id
+								deserunt nam!
+							</div>
+						</div>
+					</div>
+					<!-- FAQ 3 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseThree"
+								aria-expanded="false"
+								aria-controls="flush-collapseThree"
+							>
+								Whether return policy is available for all the
+								items?
+							</button>
+						</h2>
+						<div
+							id="flush-collapseThree"
+							class="accordion-collapse collapse"
+							data-bs-parent="#FAQ"
+						>
+							<div class="accordion-body">
+								Lorem, ipsum dolor sit amet consectetur
+								adipisicing elit. Nemo nihil ea beatae, sit, qui
+								<code>fugit quibusdam</code>
+								architecto ipsum quos eveniet provident aliquam
+								eius ipsa ut saepe. Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. A velit facere
+								ducimus veniam sapiente aliquid amet praesentium
+								similique pariatur doloribus quos fuga libero
+								hic voluptates nobis, excepturi magni eaque
+								laboriosam fugit corrupti ex dolore ratione.
+								Laborum itaque aspernatur, facere architecto,
+								veniam ullam magnam accusantium numquam
+								reprehenderit eveniet reiciendis at pariatur sed
+								recusandae consectetur doloremque, quibusdam
+								quod illum impedit vel quisquam. Officia illo
+								voluptatibus quas ipsam animi aut?
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Top Vendors -->
+		<section class="bg-light text-dark p-5">
+			<div class="container">
+				<div class="row">
+					<!-- VENDOR 1 -->
+					<div class="col-md m-3">
+						<div class="card h-100">
+							<img
+								src="./images/vendors/vivo company.png"
+								alt=""
+								class="img-fluid w-50 mx-auto mt-2"
+							/>
+							<div class="card-body text-center">
+								<div class="card-text">
+									<p class="lead">
+										VIVO is the top vendor and a close ally
+										for customers espscially, not just for
+										us. Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Sed
+										commodi accusamus assumenda velit sequi
+										saepe veniam doloribus quae fugiat
+										perspiciatis! Rerum suscipit doloribus
+										voluptatibus quos!
+									</p>
+								</div>
+								<div>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-twitter text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-instagram text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-facebook text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-reddit text-dark mx-1"
+										></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- VENDOR 2 -->
+					<div class="col-md m-3">
+						<div class="card h-100">
+							<img
+								src="./images/vendors/apple company.png"
+								alt=""
+								class="img-fluid w-50 mx-auto mt-3"
+							/>
+							<div class="card-body text-center">
+								<div class="card-text">
+									<p class="lead">
+										APPLE inc is the top vendor and a close
+										ally for customers espscially, not just
+										for us. Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Sed
+										commodi accusamus assumenda velit sequi
+										saepe veniam doloribus quae fugiat
+										perspiciatis! Rerum suscipit doloribus
+										voluptatibus quos!
+									</p>
+								</div>
+								<div>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-twitter text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-instagram text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-facebook text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-reddit text-dark mx-1"
+										></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- VENDOR 3 -->
+					<div class="col-md m-3">
+						<div class="card h-100">
+							<img
+								src="./images/vendors/realme company.png"
+								alt=""
+								class="img-fluid w-50 mx-auto mt-3"
+							/>
+							<div class="card-body text-center">
+								<div class="card-text">
+									<p class="lead">
+										REALME inc is the top vendor and a close
+										ally for customers espscially, not just
+										for us. Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Sed
+										commodi accusamus assumenda velit sequi
+										saepe veniam doloribus quae fugiat
+										perspiciatis! Rerum suscipit doloribus
+										voluptatibus quos!
+									</p>
+								</div>
+								<div>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-twitter text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-instagram text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-facebook text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-reddit text-dark mx-1"
+										></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- VENDOR 4 -->
+					<div class="col-md m-3">
+						<div class="card h-100">
+							<img
+								src="./images/vendors/motorola company.png"
+								alt=""
+								class="img-fluid w-50 mx-auto mt-3"
+							/>
+							<div class="card-body text-center">
+								<div class="card-text">
+									<p class="lead">
+										MOTOROLA is the top vendor and a close
+										ally for customers espscially, not just
+										for us. Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Sed
+										commodi accusamus assumenda velit sequi
+										saepe veniam doloribus quae fugiat
+										perspiciatis! Rerum suscipit doloribus
+										voluptatibus quos!
+									</p>
+								</div>
+								<div>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-twitter text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-instagram text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-facebook text-dark mx-1"
+										></i>
+									</a>
+									<a
+										href="#"
+										class="text-decoration-none"
+										id=""
+									>
+										<i
+											class="bi bi-reddit text-dark mx-1"
+										></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER  -->
+		<footer
+			class="p-5 position-relative"
+			id="amazon-footer"
+			style="background-color: rgb(42, 140, 165)"
+		>
+			<div class="container text-center">
+				<ul class="list-group list-group-flush lead">
+					<h2>Links</h2>
+				<div class="container" id="">
+					<a href="#" class="text-decoration-none text-light ">Mobiles</a>
+					<a href="#" class="text-decoration-none text-light">Tablets</a>
+					<a href="#" class="text-decoration-none text-light">Laptops</a>
+					<a href="#" class="text-decoration-none text-light">Privacy-policy</a>
+				</div>
+				<p class="lead">copyright &copy; 2026 amazon demo</p>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
